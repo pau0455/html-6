@@ -145,6 +145,10 @@
   margin-top: 20px;
 }
 
+.barritas {
+  display: none;
+}
+
 @media (max-width: 1667.180px) {
   
   .border{
@@ -288,6 +292,9 @@
     margin-top: 20px;
   }
 
+  .barritas {
+    display: none;
+  }
 }
 
 @media (max-width: 1222.330px) {
@@ -306,6 +313,7 @@
   
 
 }
+
 @media (max-width: 611.667px) {
 
     .products {
@@ -344,4 +352,111 @@
   grid-template-columns: 1fr;
 }
     
+}
+
+@media (max-width: 916.500px) {
+
+  .slider {
+    display: none;
+  }
+
+}
+
+@media (max-width: 916.500px) {
+
+  .search {
+    display: none;
+  }
+
+}
+
+@media (max-width: 916.500px) {
+
+  .line {
+    display: none;
+  }
+
+}
+
+@media (max-width: 916.500px) {
+
+  .app {
+    display: none;
+  }
+
+}
+
+@media (max-width: 916.500px) {
+
+  .social {
+    display: none;
+  }
+
+}
+
+@media (max-width: 916.500px) {
+
+  .ubicacion {
+    display: none;
+  }
+
+}
+
+@media (max-width: 916.500px) {
+
+  .contacto {
+    display: none;
+  }
+
+}
+
+@media (max-width: 916.500px) {
+
+  .idioma {
+    display: none;
+  }
+
+}
+
+@media (max-width: 916.500px) {
+
+  .compromiso {
+    display: none;
+  }
+
+}
+
+@media (max-width: 916.500px) {
+
+  .franquicias {
+    display: none;
+  }
+
+}
+
+@media (max-width: 916.500px) {
+
+  .condis {
+    display: none;
+  }
+
+}
+
+@media (max-width: 916.500px) {
+
+  .enseñas {
+    display: none;
+  }
+
+}
+
+@media (max-width: 916.500px) {
+
+  .barritas {
+    display: block;
+  }
+  .barritas img{
+    height: 45px;
+    width: 55px;
+  }
 }
