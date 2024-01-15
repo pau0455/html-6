@@ -9,8 +9,8 @@
   padding: 0.6em;
   width: 80%;
   margin-bottom: 1em;
-  display: flex;
-  flex-direction: row;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
 }
 
 .border img{
@@ -37,7 +37,6 @@
   background-color: #eeeff1;
   color: white;
   margin-bottom: 10px;
-
 }
 
 .opciones {
@@ -154,8 +153,8 @@
     padding: 0.6em;
     width: 80%;
     margin-bottom: 1em;
-    display: flex;
-    flex-direction: row;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
   }
   
   .border img{
@@ -193,8 +192,6 @@
     padding-top: 1em;;
     width: 75%;
   }
-  
-  
   
   .products {
     position: relative;
@@ -317,3 +314,34 @@
     
 }
   
+@media (max-width: 1222.330px) {
+
+.footer {
+  grid-template-columns: 1fr 1fr 1fr;
+}
+  
+}
+  
+@media (max-width: 916.500px) {
+  
+  .footer {
+    grid-template-columns: 1fr 1fr;
+  }
+    
+  
+}
+@media (max-width: 611.667px) {
+  
+    footer {
+    grid-template-columns: 1fr;
+  }
+      
+}
+
+@media (max-width: 734px) {
+  
+  .border {
+  grid-template-columns: 1fr;
+}
+    
+}
