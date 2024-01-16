@@ -507,7 +507,8 @@
 
   .logo img{
     position: relative;
-    left: 50px;
+    right: 220px;
+    bottom: 10px;
   }
 }
 
@@ -518,7 +519,8 @@
 
   .logo img{
     position: relative;
-    right: 60px;
+    right: 215px;
+    bottom: 10px;
   }
 }
 
@@ -529,7 +531,8 @@
 
   .logo img{
     position: relative;
-    right: 100px;
+    right: 210px;
+    bottom: 10px;
   }
 }
 
@@ -583,4 +586,42 @@
   }
 }
 
-
+@media (max-width: 916.500px) {
+  .background{
+    position: sticky;
+    bottom: 1;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 999;
+  }
+  
+  .menu {
+    width: 750px;
+    position: sticky;
+    bottom: 1;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 999;
+  }
+  
+  .banner{
+    position: sticky;
+    bottom: 1;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 999;
+  }
+  
+  .opciones {
+    position: sticky;
+    bottom: 1;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 999;
+  
+  }
+}
