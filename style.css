@@ -108,10 +108,6 @@
   margin-top: 15px;
 }
 
-.logo{
-  margin-right: 100px;
-  margin-left: 100px;
-}
 
 .line{
   margin-right: 10px;
@@ -255,10 +251,6 @@
     margin-top: 15px;
   }
   
-  .logo{
-    margin-right: 100px;
-    margin-left: 100px;
-  }
   
   .line{
     margin-right: 10px;
@@ -335,13 +327,17 @@
   .footer {
     grid-template-columns: 1fr 1fr;
   }
-    
+  .logo {
+    margin-left: 10%;
+    margin-right: 10%;
+  }
   
 }
 @media (max-width: 611.667px) {
   
-    footer {
+    .footer {
     grid-template-columns: 1fr;
+
   }
       
 }
@@ -461,4 +457,130 @@
     width: 55px;
   }
 }
+
+@media (max-width: 650.667px) {
+  .barritas {
+    position: relative;
+    right: 40px;
+  }
+
+  .barritas img{
+    position: relative;
+    height: 45px;
+    width: 55px;
+    right: 30px;
+  }
+}
+
+@media (max-width: 480.750px) {
+  .barritas {
+    position: relative;
+    right: 14px;
+  }
+
+  .barritas img{
+    position: relative;
+    height: 45px;
+    width: 55px;
+    right: 140px;
+  }
+}
+
+@media (max-width: 380px) {
+  .barritas {
+    position: relative;
+    right: 100px;
+  }
+
+  .barritas img{
+    position: relative;
+    height: 45px;
+    width: 55px;
+    right: 100px;
+  }
+}
+
+@media (max-width: 916.500px) {
+  .logo {
+    position: relative;
+  }
+
+  .logo img{
+    position: relative;
+    left: 50px;
+  }
+}
+
+@media (max-width: 480.750px) {
+  .logo {
+    position: relative;
+  }
+
+  .logo img{
+    position: relative;
+    right: 60px;
+  }
+}
+
+@media (max-width: 380px) {
+  .logo {
+    position: relative;
+  }
+
+  .logo img{
+    position: relative;
+    right: 100px;
+  }
+}
+
+@media (max-width: 1300.330px) {
+  .compromiso {
+    display: none;
+  }
+}
+
+@media (max-width: 1070.570px) {
+  .franquicias {
+    display: none;
+  }
+}
+
+@media (max-width: 1070.570px) {
+  .condis  {
+    display: none;
+  }
+}
+
+@media (max-width: 1300.330px) {
+  .idioma {
+    display: none;
+  }
+}
+
+@media (max-width: 1070.570px) {
+  .contacto {
+    display: none;
+  }
+}
+
+@media (max-width: 930.500px) {
+  .ubicacion {
+    display: none;
+  }
+}
+
+@media (max-width: 930.500px) {
+  .social {
+    right: 20px;
+    position: relative;
+  }
+}
+
+@media (max-width: 930.500px) {
+  .app {
+    right: 15px;
+    position: relative;
+  }
+}
+
 
