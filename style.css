@@ -141,7 +141,7 @@
   margin-top: 20px;
 }
 
-.barritas {
+.saltotruco{
   display: none;
 }
 
@@ -284,12 +284,9 @@
     margin-top: 20px;
   }
 
-  .barritas {
-    display: none;
-  }
 }
 
-@media (max-width: 1222.330px) {
+@media (max-width: 1468px) {
 
 .products {
   grid-template-columns: 1fr 1fr 1fr;
@@ -297,7 +294,7 @@
 
 }
 
-@media (max-width: 916.500px) {
+@media (max-width: 1223.330px) {
 
   .products {
     grid-template-columns: 1fr 1fr;
@@ -306,7 +303,7 @@
 
 }
 
-@media (max-width: 611.667px) {
+@media (max-width: 734px) {
 
     .products {
     grid-template-columns: 1fr;
@@ -430,6 +427,8 @@
 
 }
 
+
+
 @media (max-width: 916.500px) {
 
   .condis {
@@ -442,62 +441,9 @@
 
   .enseñas {
     display: none;
+
   }
 
-}
-
-
-@media (max-width: 916.500px) {
-
-  .barritas {
-    display: block;
-  }
-  .barritas img{
-    height: 45px;
-    width: 55px;
-  }
-}
-
-@media (max-width: 650.667px) {
-  .barritas {
-    position: relative;
-    right: 40px;
-  }
-
-  .barritas img{
-    position: relative;
-    height: 45px;
-    width: 55px;
-    right: 30px;
-  }
-}
-
-@media (max-width: 480.750px) {
-  .barritas {
-    position: relative;
-    right: 14px;
-  }
-
-  .barritas img{
-    position: relative;
-    height: 45px;
-    width: 55px;
-    right: 140px;
-  }
-}
-
-@media (max-width: 380px) {
-  .barritas {
-    position: relative;
-    right: 100px;
-  }
-
-  .barritas img{
-    position: relative;
-    height: 45px;
-    width: 55px;
-    right: 100px;
-  }
 }
 
 @media (max-width: 916.500px) {
@@ -539,6 +485,7 @@
 @media (max-width: 1300.330px) {
   .compromiso {
     display: none;
+
   }
 }
 
@@ -596,14 +543,21 @@
     z-index: 999;
   }
   
+  .saltotruco{
+    display: block;
+  }
+
   .menu {
     width: 750px;
     position: sticky;
-    bottom: 1;
+    bottom: 100%;
     top: 0;
     left: 0;
     right: 0;
     z-index: 999;
+    padding: 0;
+    width: 50px;
+    margin: 0;
   }
   
   .banner{
